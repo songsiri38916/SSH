@@ -1,0 +1,21 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void)
+{
+    int x = 0;
+    int y = 0;
+    double QWE;
+
+    printf("»ï°¢ÇüÀÇ ¹Øº¯: ");
+    scanf("%d", &x);
+
+    printf("»ï°¢ÇüÀÇ ³ôÀÌ: ");
+    scanf("%d", &y);
+
+    QWE = x * y / 2;
+
+    printf("»ï°¢ÇüÀÇ ³ÐÀÌ:%0.2lf", QWE);
+
+    return 0;
+}
