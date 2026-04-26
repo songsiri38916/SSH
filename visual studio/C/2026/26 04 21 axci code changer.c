@@ -6,7 +6,7 @@ int main(void)
 	char x = 0;
 	int y = 0;
 	
-	printf("�Է�:");
+	printf("ÀÔ·Â:");
 	scanf("%c", &x);
 
 	y = x + 32;
