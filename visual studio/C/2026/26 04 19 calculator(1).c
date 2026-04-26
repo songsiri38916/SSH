@@ -6,13 +6,13 @@ int main(void)
     double x = 0;
     double QWE;
 
-    printf("½Ç¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+    printf("ì‹¤ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
     scanf("%lf", &x);
 
 
     QWE = 3*x*x + 7*x + 11;
 
-    printf("´ÙÇ×½ÄÀÇ °ªÀº:%0.2lf", QWE);
+    printf("ë‹¤í•­ì‹ì˜ ê°’ì€:%0.2lf", QWE);
 
     return 0;
 }
