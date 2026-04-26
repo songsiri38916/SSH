@@ -7,15 +7,15 @@ int main(void)
 	double y = 0;
 	double QWE;
 
-	printf("Áú·®(kg):");
+	printf("ÃÃºÂ·Â®(kg):");
 	scanf("%lf",&x);
 
-	printf("¼Óµµ(m/s):");
+	printf("Â¼Ã“ÂµÂµ(m/s):");
 	scanf("%lf", &y);
 
 	QWE = 0.5 * x * y * y;
 
-	printf("¿îµ¿¿¡³ÊÁö(J):%.6lf", QWE);
+	printf("Â¿Ã®ÂµÂ¿Â¿Â¡Â³ÃŠÃÃ¶(J):%.6lf", QWE);
 
 	return 0;
 }
