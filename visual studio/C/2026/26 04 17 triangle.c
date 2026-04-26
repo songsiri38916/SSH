@@ -7,15 +7,15 @@ int main(void)
     int y = 0;
     double QWE;
 
-    printf("»ï°¢ÇüÀÇ ¹Øº¯: ");
+    printf("ì‚¼ê°í˜•ì˜ ë°‘ë³€: ");
     scanf("%d", &x);
 
-    printf("»ï°¢ÇüÀÇ ³ôÀÌ: ");
+    printf("ì‚¼ê°í˜•ì˜ ë†’ì´: ");
     scanf("%d", &y);
 
     QWE = x * y / 2;
 
-    printf("»ï°¢ÇüÀÇ ³ĞÀÌ:%0.2lf", QWE);
+    printf("ì‚¼ê°í˜•ì˜ ë„“ì´:%0.2lf", QWE);
 
     return 0;
 }
